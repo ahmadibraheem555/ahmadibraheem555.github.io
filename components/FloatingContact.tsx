@@ -41,7 +41,7 @@ export default function FloatingContact() {
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 2.5, duration: 0.5, ease: "easeOut" }}
-      className="fixed bottom-6 right-6 z-50 flex flex-col gap-3"
+      className="fixed bottom-16 right-6 z-50 flex flex-col gap-3"
     >
       {ACTIONS.map(({ label, href, icon: Icon, external, pulse }) => (
         <div key={label} className="group relative">

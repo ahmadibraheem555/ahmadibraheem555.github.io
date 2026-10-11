@@ -3,6 +3,7 @@ import { DM_Sans, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import CustomCursor from "@/components/CustomCursor";
 import FloatingContact from "@/components/FloatingContact";
+import MarqueeBanner from "@/components/MarqueeBanner";
 const display = Space_Grotesk({
   subsets: ["latin"],
   variable: "--font-display",
@@ -49,6 +50,7 @@ export default function RootLayout({
         <CustomCursor />
         {children}
         <FloatingContact />
+        <MarqueeBanner />
         </body>
     </html>
   );
